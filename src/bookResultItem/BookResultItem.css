@@ -1,0 +1,26 @@
+.book-title {
+  text-align: center;
+}
+
+.book-results-container {
+  text-align: center;
+  margin: 0 100px;
+}
+
+.book-result-container {
+  display: flex;
+  align-items: center;
+}
+
+.book-image {
+  max-width: auto;
+  height: 200px;
+  margin-right: 50px;
+}
+
+@media screen and (max-width:600px) {
+  .book-result-container { 
+    flex-direction: column;
+    margin: 0;
+  }
+}
