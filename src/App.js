@@ -26,7 +26,7 @@ class App extends Component {
   }
 
   handleSubmit = () => {
-    const apiKey = 'AIzaSyCCCdaEJds6hQW2c-4A0cjdIvDrWUpIzVc';
+    const apiKey = 'ENTER_GOOGLE_BOOKS_API_KEY_HERE';
     const baseURL = 'https://www.googleapis.com/books/v1/volumes';
 
     const params = {
